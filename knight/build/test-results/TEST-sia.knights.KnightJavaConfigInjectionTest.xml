@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sia.knights.KnightJavaConfigInjectionTest" tests="1" failures="0" errors="0" timestamp="2019-05-12T07:29:37" hostname="HQ012-8885C6108" time="0.314">
+  <properties/>
+  <testcase name="shouldInjectKnightWithSlayDragonQuest" classname="sia.knights.KnightJavaConfigInjectionTest" time="0.314"/>
+  <system-out><![CDATA[11:59:37,640  INFO ramework.test.context.TestContextManager: 242 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+11:59:37,644  INFO ramework.test.context.TestContextManager: 242 - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+11:59:37,786  INFO ontext.support.GenericApplicationContext: 515 - Refreshing org.springframework.context.support.GenericApplicationContext@457c8a8a: startup date [Sun May 12 11:59:37 IRDT 2019]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
